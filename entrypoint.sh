@@ -1,8 +1,9 @@
 #!/bin/bash
 
+source /root/.nvm/nvm.sh
+
 if [ ! -z ${NODE_VERSION+x} ]
 then
-  source /root/.nvm/nvm.sh
   nvm install $NODE_VERSION
   nvm alias default $NODE_VERSION
 fi

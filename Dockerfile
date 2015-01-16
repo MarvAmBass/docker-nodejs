@@ -5,8 +5,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     git
 
-RUN wget -qO- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash && \
-    echo "source /root/.nvm/nvm.sh" >> /etc/bash.bashrc
+RUN wget -qO- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
 ADD entrypoint.sh /opt/entrypoint.sh
 
