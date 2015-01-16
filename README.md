@@ -62,3 +62,5 @@ Get a BASH inside __marvambass/nodejs__ or inheriting containers
     root@006900a8d48c:/# 
 
 You also can check my containers who use __marvambass/nodejs__ - so you get a better look on how to use this container.
+
+* [MarvAmBass/docker-ghost](https://github.com/MarvAmBass/docker-ghost)
