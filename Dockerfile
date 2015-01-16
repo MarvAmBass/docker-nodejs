@@ -13,4 +13,4 @@ ADD entrypoint.sh /opt/entrypoint.sh
 RUN chmod a+x /opt/entrypoint.sh; \
     bash -c 'NODE_VERSION=stable /opt/entrypoint.sh'
 
-ENTRYPOINT ["/bin/bash","-c","/opt/entrypoint.sh"]
+ENTRYPOINT ["/opt/entrypoint.sh"]
