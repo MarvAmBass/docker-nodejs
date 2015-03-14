@@ -1,6 +1,8 @@
 FROM ubuntu:14.04
 MAINTAINER MarvAmBass
 
+ENV HOME /root
+
 RUN apt-get update && apt-get install -y \
     wget \
     git
